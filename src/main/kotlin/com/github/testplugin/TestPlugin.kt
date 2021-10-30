@@ -14,6 +14,7 @@ class TestPlugin : JavaPlugin(), Listener {
 
     @EventHandler
     fun onJoin(event: PlayerJoinEvent) {
-        event.player.sendMessage(Component.text("Привет мир", NamedTextColor.AQUA))
+        val textComponent = Component.text("Привет", NamedTextColor.GREEN)
+        event.player.sendMessage(textComponent)
     }
 }
