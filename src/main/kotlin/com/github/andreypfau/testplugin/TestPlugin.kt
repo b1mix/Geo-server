@@ -10,6 +10,7 @@ import org.bukkit.plugin.java.JavaPlugin
 class TestPlugin : JavaPlugin(), Listener {
     override fun onEnable() {
         println("Плагин запущен")
+        server.pluginManager.registerEvents(this, this)
     }
 
     @EventHandler

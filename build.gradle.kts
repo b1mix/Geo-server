@@ -23,6 +23,12 @@ tasks {
     }
 }
 
+tasks {
+    runServer {
+        minecraftVersion("1.17.1")
+    }
+}
+
 bukkit {
     main = "com.github.andreypfau.testplugin.TestPlugin"
     apiVersion = "1.17"
