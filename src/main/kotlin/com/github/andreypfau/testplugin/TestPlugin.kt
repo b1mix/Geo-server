@@ -1,4 +1,4 @@
-package com.github.andreypfau.testplugin
+package com.github.b1mix.testplugin
 
 import net.kyori.adventure.text.Component
 import net.kyori.adventure.text.format.NamedTextColor
