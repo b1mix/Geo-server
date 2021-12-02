@@ -15,7 +15,7 @@ class TestPlugin : JavaPlugin(), Listener {
 
     @EventHandler
     fun onJoin(event: PlayerJoinEvent) {
-        val textComponent = Component.text("Привет", NamedTextColor.GREEN)
+        val textComponent = Component.text("Добро пожаловать на GeoCraft", NamedTextColor.GREEN)
         event.player.sendMessage(textComponent)
     }
 }
