@@ -1,0 +1,198 @@
+[16:10:28] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[16:10:29] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[16:10:29] [Worker-Main-5/INFO]: Loaded 7 recipes
+[16:10:30] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[16:10:30] [Server thread/INFO]: Loading properties
+[16:10:30] [Server thread/INFO]: This server is running Paper version git-Paper-790 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[16:10:30] [Server thread/INFO]: Debug logging is disabled
+[16:10:30] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:10:30] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:10:31] [Server thread/INFO]: Default game type: SURVIVAL
+[16:10:31] [Server thread/INFO]: Generating keypair
+[16:10:31] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:10:31] [Server thread/INFO]: Using default channel type
+[16:10:31] [Server thread/ERROR]: Could not load 'plugins\WorldGuardExtraFlags.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [WorldGuard]. Please download and install these plugins to run 'WorldGuardExtraFlags'.
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:291) ~[patched_1.16.5.jar:git-Paper-790]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.loadPlugins(CraftServer.java:393) ~[patched_1.16.5.jar:git-Paper-790]
+	at net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:269) ~[patched_1.16.5.jar:git-Paper-790]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1074) ~[patched_1.16.5.jar:git-Paper-790]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:291) ~[patched_1.16.5.jar:git-Paper-790]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+[16:10:32] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.10.10
+[16:10:32] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[16:10:32] [Server thread/INFO]: [minecraft-kotlin-plugin] Loading minecraft-kotlin-plugin v1.0.0-SNAPSHOT
+[16:10:32] [Server thread/INFO]: [dynmap] Loading dynmap v3.3-beta-1-564
+[16:10:32] [Server thread/INFO]: [dynmap] version=git-Paper-790 (MC: 1.16.5)
+[16:10:32] [Server thread/INFO]: [dynmap] Mod Support API available
+[16:10:32] [Server thread/INFO]: [Chunky] Loading Chunky v1.2.86
+[16:10:32] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.0
+[16:10:32] [Server thread/INFO]: [CrazyAuctions] Loading CrazyAuctions v1.2.16-RELEASE
+[16:10:32] [Server thread/INFO]: [DeluxeMenus] Loading DeluxeMenus v1.13.3-Release
+[16:10:32] [Server thread/INFO]: [AuthMe] Loading AuthMe v5.6.0-beta2-b2453
+[16:10:32] [Server thread/INFO]: [Towny] Loading Towny v0.97.5.0
+[16:10:32] [Server thread/INFO]: [QualityArmory] Loading QualityArmory v2.0.3
+[16:10:32] [Server thread/INFO]: [TownyChat] Loading TownyChat v0.91
+[16:10:32] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:10:32] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[16:10:32] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.19.0 which is not a depend, softdepend or loadbefore of this plugin.
+[16:10:32] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[16:10:32] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[16:10:32] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[16:10:32] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:10:32] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:10:32] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:10:32] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:10:32] [Server thread/INFO]: Preparing level "world"
+[16:10:33] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:10:33] [Server thread/INFO]: Preparing spawn area: 0%
+[16:10:33] [Server thread/INFO]: Time elapsed: 278 ms
+[16:10:33] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[16:10:33] [Server thread/INFO]: Time elapsed: 195 ms
+[16:10:33] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[16:10:33] [Server thread/INFO]: Time elapsed: 239 ms
+[16:10:33] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.10.10
+[16:10:34] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[16:10:34] [Server thread/INFO]: [minecraft-kotlin-plugin] Enabling minecraft-kotlin-plugin v1.0.0-SNAPSHOT
+[16:10:34] [Server thread/INFO]: Плагин запущен
+[16:10:34] [Server thread/INFO]: [dynmap] Enabling dynmap v3.3-beta-1-564
+[16:10:34] [Server thread/INFO]: [dynmap] Using Vault provider SuperPerms for access control
+[16:10:34] [Server thread/INFO]: [dynmap] Mod Support processing completed
+[16:10:35] [Server thread/INFO]: [dynmap] Loaded 25 shaders.
+[16:10:35] [Server thread/INFO]: [dynmap] Loaded 82 perspectives.
+[16:10:35] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
+[16:10:35] [Server thread/INFO]: [dynmap] Starting enter/exit processing
+[16:10:36] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
+[16:10:36] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:8123
+[16:10:36] [Server thread/INFO]: [dynmap] version 3.3-beta-1-564 is enabled - core version 3.3-beta-1-564
+[16:10:36] [Server thread/INFO]: [dynmap] For support, visit https://reddit.com/r/Dynmap or our Discord at https://discord.gg/s3rd5qn
+[16:10:36] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
+[16:10:36] [Server thread/INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
+[16:10:36] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'world'.
+[16:10:36] [Server thread/INFO]: [dynmap] Loaded 9615 pending tile renders for world 'world'
+[16:10:36] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_nether'.
+[16:10:36] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_the_end'.
+[16:10:36] [Server thread/INFO]: [dynmap] Enabled
+[16:10:36] [Server thread/INFO]: [Chunky] Enabling Chunky v1.2.86
+[16:10:36] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.0
+[16:10:36] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[16:10:36] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[16:10:36] [Server thread/INFO]: [Essentials] Loaded 36837 items from items.json.
+[16:10:36] [Server thread/INFO]: [Essentials] Using locale ru_RU
+[16:10:36] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[16:10:36] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[16:10:36] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[16:10:36] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[16:10:36] [Server thread/INFO]: [CrazyAuctions] Enabling CrazyAuctions v1.2.16-RELEASE
+[16:10:36] [Server thread/INFO]: [CrazyAuctions] Loading the config.yml
+[16:10:36] [Server thread/INFO]: [CrazyAuctions] Successfully loaded config.yml
+[16:10:36] [Server thread/INFO]: [CrazyAuctions] Loading the Data.yml
+[16:10:36] [Server thread/INFO]: [CrazyAuctions] Successfully loaded Data.yml
+[16:10:36] [Server thread/INFO]: [CrazyAuctions] Loading the Messages.yml
+[16:10:36] [Server thread/INFO]: [CrazyAuctions] Successfully loaded Messages.yml
+[16:10:36] [Server thread/INFO]: [CrazyAuctions] Loading the Test-File.yml
+[16:10:36] [Server thread/INFO]: [CrazyAuctions] Successfully loaded Test-File.yml
+[16:10:36] [Server thread/INFO]: [DeluxeMenus] Enabling DeluxeMenus v1.13.3-Release
+[16:10:36] [Server thread/INFO]: [DeluxeMenus] Hooked into PlaceholderAPI!
+[16:10:36] [Server thread/INFO]: [DeluxeMenus] 1 GUI menus loaded!
+[16:10:36] [Server thread/INFO]: [DeluxeMenus] You are running the latest version of DeluxeMenus!
+[16:10:36] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into Vault for economy requirement!
+[16:10:36] [Server thread/INFO]: [DeluxeMenus] Could not setup a NMS hook for your server version!
+[16:10:36] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: deluxemenus
+[16:10:36] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-beta2-b2453
+[16:10:37] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[16:10:37] [Server thread/INFO]: [AuthMe] Hooked into Vault!
+[16:10:37] [Server thread/INFO]: [AuthMe] Hooked successfully into Essentials
+[16:10:37] [Server thread/INFO]: [AuthMe] Essentials spawn file not found: 'C:\Users\79778\IdeaProjects\minecraft-kotlin-plugin\run\plugins\Essentials\spawn.yml'
+[16:10:37] [Server thread/WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[16:10:37] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-beta2 build n.2453 successfully enabled!
+[16:10:37] [Server thread/INFO]: [Towny] Enabling Towny v0.97.5.0
+[16:10:37] [Server thread/INFO]: ====================      Towny      ========================
+[16:10:38] [Server thread/INFO]: [Towny] Successfully loaded translations for 27 languages.
+[16:10:38] [Server thread/INFO]: [Towny] Database: [Load] flatfile [Save] flatfile
+[16:10:38] [Server thread/INFO]: [Towny] Database: Loaded in 43ms.
+[16:10:38] [Server thread/INFO]: [Towny] Database: 100% of residents have stored UUIDs.
+[16:10:38] [ForkJoinPool.commonPool-worker-19/INFO]: [Towny] Cleaning up old backups...
+[16:10:38] [Server thread/INFO]: [Towny] Searching for third-party plugins...
+[16:10:38] [ForkJoinPool.commonPool-worker-19/INFO]: [Towny] Successfully cleaned backups.
+[16:10:38] [ForkJoinPool.commonPool-worker-19/INFO]: [Towny] Making backup...
+[16:10:38] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: townyadvanced
+[16:10:38] [Server thread/INFO]: [Towny] Plugins found: 
+[16:10:38] [Server thread/INFO]: [Towny]   Permissions: TownyPerms, BukkitPermissions
+[16:10:38] [Server thread/INFO]: [Towny]   Economy: EssentialsX Economy via Vault
+[16:10:39] [Server thread/INFO]: [Towny]   Add-ons: TownyChat v0.91, PlaceholderAPI v2.10.10
+[16:10:39] [Thread-23/INFO]: [Towny] Checking for updates...
+[16:10:39] [Server thread/INFO]: =============================================================
+[16:10:39] [Server thread/INFO]: [Towny] Version: 0.97.5.0 - Plugin Enabled
+[16:10:39] [Server thread/INFO]: =============================================================
+[16:10:39] [Server thread/INFO]: [QualityArmory] Enabling QualityArmory v2.0.3
+[16:10:39] [Server thread/ERROR]: Error occurred while enabling QualityArmory v2.0.3 (Is it up to date?)
+java.lang.NoClassDefFoundError: com/sk89q/worldguard/protection/flags/Flag
+	at me.zombie_striker.qg.hooks.protection.ProtectionHandler.init(ProtectionHandler.java:17) ~[?:?]
+	at me.zombie_striker.qg.QAMain.onEnable(QAMain.java:636) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:263) ~[patched_1.16.5.jar:git-Paper-790]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370) ~[patched_1.16.5.jar:git-Paper-790]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:500) ~[patched_1.16.5.jar:git-Paper-790]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.enablePlugin(CraftServer.java:518) ~[patched_1.16.5.jar:git-Paper-790]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.enablePlugins(CraftServer.java:432) ~[patched_1.16.5.jar:git-Paper-790]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.loadWorld(MinecraftServer.java:599) ~[patched_1.16.5.jar:git-Paper-790]
+	at net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:298) ~[patched_1.16.5.jar:git-Paper-790]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1074) ~[patched_1.16.5.jar:git-Paper-790]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:291) ~[patched_1.16.5.jar:git-Paper-790]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.ClassNotFoundException: com.sk89q.worldguard.protection.flags.Flag
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:155) ~[patched_1.16.5.jar:git-Paper-790]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:114) ~[patched_1.16.5.jar:git-Paper-790]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:519) ~[?:?]
+	... 12 more
+[16:10:39] [Server thread/INFO]: [QualityArmory] Disabling QualityArmory v2.0.3
+[16:10:39] [Server thread/INFO]: [TownyChat] Enabling TownyChat v0.91
+[16:10:39] [Server thread/INFO]: [TownyChat] Default Channel set to general
+[16:10:39] [Server thread/INFO]: [TownyChat] Towny version 0.97.5.0 found.
+[16:10:39] [ForkJoinPool.commonPool-worker-19/INFO]: [Towny] Towny flatfiles and settings successfully backed up.
+[16:10:39] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[16:10:39] [Server thread/INFO]: No expansions were registered!
+[16:10:39] [Server thread/INFO]: Running delayed init tasks
+[16:10:39] [Craft Scheduler Thread - 2/INFO]: [Essentials] Получение информации о версии...
+[16:10:39] [Craft Scheduler Thread - 5/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[16:10:39] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[16:10:39] [Craft Scheduler Thread - 9/INFO]: [Vault] Checking for Updates ... 
+[16:10:39] [Craft Scheduler Thread - 6/INFO]: [Towny] Time until a New Day: 19 hours, 49 minutes, 21 seconds
+[16:10:39] [Craft Scheduler Thread - 5/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[16:10:39] [Craft Scheduler Thread - 5/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[16:10:39] [Craft Scheduler Thread - 5/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (Не удается найти указанный файл)
+[16:10:39] [Server thread/INFO]: [TownyChat] -******* TownyChat enabled *******-
+[16:10:39] [Craft Scheduler Thread - 9/INFO]: [Vault] No new version available
+[16:10:39] [User Authenticator #1/INFO]: UUID of player Furil is 251b46fb-acb1-3b85-8f5e-1af1c1aaff50
+[16:10:40] [Server thread/INFO]: Done (9.250s)! For help, type "help"
+[16:10:40] [Server thread/INFO]: Timings Reset
+[16:10:40] [Dynmap Render Thread/INFO]: [dynmap] Loading default resource pack
+[16:10:40] [Thread-23/INFO]: [Towny] New update available: 0.97.5.1 | Current version: 0.97.5.0
+[16:10:40] [Thread-23/INFO]: [Towny] Download it here: https://github.com/TownyAdvanced/Towny/releases/tag/0.97.5.1
+[16:10:41] [Server thread/INFO]: Furil joined the game
+[16:10:41] [Server thread/INFO]: Furil[/127.0.0.1:51267] logged in with entity id 1 at ([world]7029.4831680457855, 126.0, 5065.9691471356255)
+[16:10:41] [Server thread/WARN]: [AuthMe] Could not save LimboPlayer for 'Furil' [InaccessibleObjectException]: Unable to make private java.util.Collections$EmptyList() accessible: module java.base does not "opens java.util" to unnamed module @57d5872c
+[16:10:48] [Craft Scheduler Thread - 2/INFO]: [AuthMe] Furil logged in 127.0.0.1
+[16:10:54] [Server thread/INFO]: Furil issued server command: /offer
+[16:10:57] [Server thread/INFO]: Furil issued server command: /clear @s minecraft:brown_mushroom 64
+[16:10:57] [Server thread/INFO]: Furil issued server command: /eco give @s 50
+[16:11:01] [Server thread/INFO]: Furil issued server command: /clear @s minecraft:brown_mushroom 64
+[16:11:01] [Server thread/INFO]: Furil issued server command: /eco give @s 50
+[16:11:02] [Server thread/INFO]: Furil issued server command: /clear @s minecraft:brown_mushroom 64
+[16:11:02] [Server thread/INFO]: Furil issued server command: /eco give @s 50
+[16:11:02] [Server thread/INFO]: Furil issued server command: /clear @s minecraft:brown_mushroom 64
+[16:11:02] [Server thread/INFO]: Furil issued server command: /eco give @s 50
+[16:11:02] [Server thread/INFO]: Furil issued server command: /clear @s minecraft:brown_mushroom 64
+[16:11:02] [Server thread/INFO]: Furil issued server command: /eco give @s 50
+[16:11:02] [Server thread/INFO]: Furil issued server command: /clear @s minecraft:brown_mushroom 64
+[16:11:02] [Server thread/INFO]: Furil issued server command: /eco give @s 50
+[16:11:02] [Server thread/INFO]: Furil issued server command: /clear @s minecraft:brown_mushroom 64
+[16:11:02] [Server thread/INFO]: Furil issued server command: /eco give @s 50
+[16:11:03] [Server thread/INFO]: Furil issued server command: /clear @s minecraft:brown_mushroom 64
+[16:11:03] [Server thread/INFO]: Furil issued server command: /eco give @s 50
+[16:11:03] [Server thread/INFO]: Furil issued server command: /clear @s minecraft:brown_mushroom 64
+[16:11:03] [Server thread/INFO]: Furil issued server command: /eco give @s 50
+[16:11:03] [Server thread/INFO]: Furil issued server command: /clear @s minecraft:brown_mushroom 64
+[16:11:03] [Server thread/INFO]: Furil issued server command: /eco give @s 50
+[16:11:03] [Server thread/INFO]: Furil issued server command: /clear @s minecraft:brown_mushroom 64
+[16:11:03] [Server thread/INFO]: Furil issued server command: /eco give @s 50
